@@ -713,7 +713,7 @@ color: #434455;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    .review-form-checkbox:checked + .color-text {
+    .review-form-checkbox:checked + .review-form-checkbox-label .color-text {
         background-color: #404bbf;
         border: none;
         fill: #F4F4FD;
