@@ -445,11 +445,12 @@
                                 <form class="contact-form">
                                     <label for="contact-email" 
                                     class="contact-form-label">E-mail<input  class="contact-form-input" 
+                                    id="contact-email"
                                     type="email" 
                                     name="contact-email" 
                                     placeholder="E-mail" />
                                     </label>
-                                    <button class="contact-form-btn">Subscribe<svg class="contact-form-btn-icon" 
+                                    <button class="contact-form-btn" type="submit">Subscribe<svg class="contact-form-btn-icon" 
                                         width="24" height="24">
                                         <use href="./images/icons.svg#icon-frame"></use>
                                     </svg></button>
@@ -522,7 +523,7 @@
                                     id="user-comment"
                                     name="user-comment"
                                     placeholder="Text input" 
-                                    required ></textarea>
+                                    required></textarea>
                                 </div>
 
                                 <div class="review-form-checkbox-wrapper">
@@ -533,13 +534,13 @@
                                     name="user-privacy" 
                                     value="true"
                                     required />
-                                    <label for="user-privacy" class="review-form-checkbox-label">I accept the terms and conditions of the
-                                        
+                                    <label for="user-privacy" class="review-form-checkbox-label">
                                             <span class="color-text">
                                         <svg class="review-form-field-checkbox" width="10" height="8">
                                         <use href="./images/icons.svg#icon-check-mark"></use>
                                         
-                                    </svg></span><a class="privacy-link" href="#">Privacy Policy</a>
+                                    </svg></span>I accept the terms and conditions of the
+                                    <a class="privacy-link" href="#">Privacy Policy</a>
                                     </label>
                                 </div>
                                 <button class="review-form-submit">Send</button>
